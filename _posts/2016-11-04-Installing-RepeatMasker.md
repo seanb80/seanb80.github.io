@@ -12,3 +12,9 @@ low DNA complexity from an existing .FASTA file. The program can be found at htt
 After downloading the requisite files and dependencies (For me this was RMBlast, TNF, and the repeat database from GIRI, which requires user authentication provided by the GIRI people, a roughly 3 hour turnaround time for me).
 
 <em>Installation Walkthrough</em>:
+
+note: This was done on a Macbook Pro running Ubuntu 16.04.
+
+1. Check perl version, as RepeatMasker requires version 5.8.0 or greater.
+
+<img src = "https://raw.github.com/seanb80/seanb80.github.io/master/images/perl.png", alt = "perl version check">
