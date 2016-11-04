@@ -4,6 +4,9 @@ title: "Installing RepeatMasker"
 date: 2016-11-04
 ---
 
+![Image description](/images/perl.png)
+
+
 Today I started working on identifying transposable elements in the Ostrea lurida genome via RepeatMasker.
 
 RepeatMasker is a linux based program that identifies transposable elements, satellites, and regions of 
