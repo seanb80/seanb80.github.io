@@ -29,4 +29,4 @@ note: This was done on a Macbook Pro running Ubuntu 16.04 roughly following repe
 
 4. copy rmblast files in to the blast director
 
-<img src = "https://raw.github.com/seanb80/seanb80.github.io/master/images/cp%20rmblast%20to%20blast.png"
+<img src = "https://raw.github.com/seanb80/seanb80.github.io/master/images/cp%20rmblast%20to%20blast.png", alt = "moving rmblast to blast dir">
