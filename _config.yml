@@ -1,2 +1,4 @@
 name: Sean Bennett
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
