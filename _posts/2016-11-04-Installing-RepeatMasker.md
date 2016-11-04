@@ -17,7 +17,7 @@ your favorite package manager, ex. apt-get install dtrx
 note: This was done on a Macbook Pro running Ubuntu 16.04 roughly following repeatmasker.org instructions.
 
 1. Check perl version, as RepeatMasker requires version 5.8.0 or greater.
-
+!["perl version check"]({{ seanb80.github.io }}/master/images/perl.png)
 <img src = "https://raw.github.com/seanb80/seanb80.github.io/master/images/perl.png", alt = "perl version check">
 
 2. Unzip RepeatMasker in to /usr/local.
