@@ -62,7 +62,7 @@ note: This was done on a Macbook Pro running Ubuntu 16.04 roughly following repe
 10. Path to perl interpretar, default worked for me.
 
    ![](/images/RM%20cfg%202.png)
-  
+
 11. Repeat Masker installation location, again default worked for me.
 
    ![](/images/RM%20cfg%203.png)
