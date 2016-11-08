@@ -81,11 +81,11 @@ note: This was done on a Macbook Pro running Ubuntu 16.04 roughly following repe
 
    ![](/images/RMBlast%20Default.png)
   
-   ![](/images/RMBlast%20Configured.png")
+   ![](/images/RMBlast%20Configured.png)
   
 15. Config done! Err... not so much. The configuration removes some files, which requires sudo as they live in /usr/local. 
     
-   ![](/images/config%20sucessful.png")
+   ![](/images/config%20sucessful.png)
     
     So, just rerun the config using sudo perl ./configure. 
     
