@@ -33,7 +33,7 @@ note: This was done on a Macbook Pro running Ubuntu 16.04 roughly following repe
 
 5. copy rmblast files in to the blast director
 
-   ![](images/cp%20rmblast%20to%20blast.png)
+   ![](/images/cp%20rmblast%20to%20blast.png)
 
 6. At this point, I switched to using dtrx (do the right extraction) as opposed to using tar/gunzip. 
    Just a quality of life thing. I unzipped the repeat libraries obtained from GIRI at this point.
@@ -41,7 +41,7 @@ note: This was done on a Macbook Pro running Ubuntu 16.04 roughly following repe
    Library directory, so dtrx will make a second Libraries directory as opposed to overwrite without that 
    argument. The subsequent pictures show how to fix that. 
    
-   ![](/images/dtrx%libraries.png)
+   ![](/images/dtrx%20libraries.png)
    
    ![](/images/mv%20lib.1%20to%20lib.png)
   
