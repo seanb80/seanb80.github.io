@@ -31,3 +31,5 @@ notice that pretty R in the new notebook options
 Test!
 
 ![](/images/docker/rworks.png)
+
+Huzzah!
