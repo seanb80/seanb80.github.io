@@ -30,7 +30,7 @@ posting it to github seems to be more than it can handle at the moment. Platanus
 as it gives no hint on a progress or time to completion. I guess I just come back periodically to see if it's encountered an error, 
 or completed. 
 
-The command used to start was ```` ./platanus assemble -o Oly -f *.fa_trimmed ```
+The command used to start was ``` ./platanus assemble -o Oly -f *.fa_trimmed ```
 
 Also, I've started experimenting with Shiny. Shiny is a web application development tool for the R programming language.
 It allows you to create interactive data visualizations hosted on the web. Way fancier than the typical results of a 
