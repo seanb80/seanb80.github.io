@@ -24,7 +24,7 @@ If you don't do this, the Restore will fail with a "Could Not Restore, Invalid A
 
 Step 5. Hit go, then wait. At the end collect your fancy new boot drive
 
-![Finished!](/images/mtnln/1.png)
+![Finished!](/images/mtnln/5.png)
 
 As much as I may love the OS X ecosystem, this was *way* harder than it needed to be. Sometimes I don't need to be protected
 from myself quite as much as Apple thinks I do.
