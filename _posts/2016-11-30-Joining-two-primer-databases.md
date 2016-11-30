@@ -68,3 +68,5 @@ PB.test[which(!PB.test$Name %in% PD.test$`Primer name`),] -> leftovers
 ```
 
 Finally, I look to see how many I sucessfully matched, and then save those which did not match to a third database, for further (hopefully not by hand) matching. In this case I matched 667 of the 1035 primers, leaving 368 unidentified. 
+
+Update: After going through my leftovers pile, I noticed that somewhere along the lines, the format for the primer location tabs switched from a Name -> ID order to a ID -> Name order, which I didn't notice when copying over. This should improve the match rate.
