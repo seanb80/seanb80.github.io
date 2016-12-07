@@ -10,3 +10,5 @@ Found [Here](http://rpubs.com/seanb80/233608)
 
 It doesn't look like there's good evidence for clustering based on treatment, but after getting ahold of Claire's old notebook
 where she did similar analysis on the Pacific oyster, I'll continue to explore. 
+
+Update: Don't run this in R-Studio, run it from the command line via RScript. The console window probably runs in to some sort of buffer overrun or something and locks up hard, though may still be running in the background. Found this out one Emu restart later. Oops.
