@@ -8,11 +8,11 @@
 ## also zip up the other Bismark outputs.
 
 require("Rcpp")
-source("http://bioconductor.org/biocLite.R")
-biocLite(c("GenomicRanges","IRanges"))
+#source("http://bioconductor.org/biocLite.R")
+#iocLite(c("GenomicRanges","IRanges"))
 require("devtools")
-install_github("al2na/methylKit", build_vignettes = FALSE, repos = BiocInstaller::biocinstallRepos(), dependencies = TRUE)
-
+#install_github("al2na/methylKit", build_vignettes = FALSE, repos = BiocInstaller::biocinstallRepos(), dependencies = TRUE)
+library("methylKit")
 ######### The below section is the interactive portion, querying user for relevent information ####
 
 ## Queries and sets data directory
@@ -68,18 +68,19 @@ for(i in 1:nrow(file_names))   {
 }
 
 ## Runs the bismark_methylation_extractor. This is quick.
+setwd(bismark_output)
 for(i in 1:nrow(file_names))   {
 
-  system(paste0(bismark_directory, "bismark_methylation_extractor -s --scaffolds --merge_non_CpG -- bedGraph --zero_based ", bismark_output, gsub(".fastq.gz", "", file_names[i,1]), "/", gsub(".fastq.gz", "", file_names[i,1]), "_bismark_bt2.bam", "--output ", bismark_output))
+  system(paste0(bismark_directory, "bismark_methylation_extractor -s --scaffolds --merge_non_CpG --bedGraph --zero_based ", bismark_output, gsub(".fastq.gz", "", file_names[i,1]), "_bismark_bt2.bam", " --output ", bismark_output))
 }
 
 ################ Methylkit part here #######################
 
-## Sets working directory to the output directory. 
+# Sets working directory to the output directory.
 setwd(bismark_output)
 
 ## unzips all of the coverage files, which are outputted from bismark zipped. In it's current
-## status it deletes the gzips after unzipping, but that could be changed. 
+## status it deletes the gzips after unzipping, but that could be changed.
 system("gzip -d *.bismark.cov.gz")
 
 ## Initilizes vectors for file labels and sample labels.
@@ -113,7 +114,7 @@ for(i in 1:nrow(file_names)) {
   dev.off()
 }
 
-## Zips the resulting histograms and removes the PDFs. 
+## Zips the resulting histograms and removes the PDFs.
 system("tar -zcvf MethStat.tar.gz *MethStat*")
 system("rm *MethStatHist*")
 
@@ -156,8 +157,9 @@ system("tar -zcvf OtherFiles.tar.gz *.* --exclude='*.tar.gz'")
 system("rm *.pdf")
 system("rm *.csv")
 
-## Sets the working directory back to the original output directory, zips all the 
-## coverage files and deletes them. 
+## Sets the working directory back to the original output directory, zips all the
+## coverage files and deletes them.
 setwd(bismark_output)
 system("tar -zcvf CovFiles.tar.gz *.bismark.cov*")
 system("rm *.bismark.cov*")
+
