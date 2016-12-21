@@ -12,7 +12,7 @@ No problem! A quick trip over to the SAFS shop remedied that. Super classy, I kn
 
 After downloading the Hoboware application from http://www.onsetcomp.com/hoboware-trial-download and putting the Roberts Lab key in, everything looked good! The free version won't interface with the larger V2 probes, so the pro version is required
 
-<img src = "https://github.com/seanb80/seanb80.github.io/blob/master/images/hobo/Screen%20Shot%202016-12-20%20at%2012.39.29%20PM.png?raw=true" width = "400">
+<img src = "https://github.com/seanb80/seanb80.github.io/blob/master/images/hobo/Screen%20Shot%202016-12-20%20at%2012.39.29%20PM.png?raw=true" width = "401">
 
 I then hooked up just the shuttle, to sync the time with my system clock, ensuring it passes the correct time on to the pendants when lauching them. This is done by clicking the Sync Shuttle Clock button.
 
