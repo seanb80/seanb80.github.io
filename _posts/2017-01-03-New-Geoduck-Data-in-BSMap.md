@@ -10,7 +10,7 @@ The script above reads in all file names matching with the .sam prefix, saves th
 
 Next, I prepped the files for methylkit analysis, and ran them through methylkit. Methylkit expects output similar to Bismark, with R and F for reverse and forward strand designations, and CG to indicate CpG motifs, so the first part of this script operates on the BSmap data, stripping all non CG motifs, and changing strand designators. The second part of the script runs methylkit, using a minimum coverage value of 3, and a maximum filter percentage of 95, then creates methylation and coverage histograms, as well as a clustering dendrogram and PCA plot, then saves them to a pdf file. 
 
-<img src = "https://github.com/seanb80/seanb80.github.io/blob/master/images/geoduck-meth/Screen%20Shot%202017-01-03%20at%209.24.42%20AM.png?raw=true", width = "1400">
+<img src = "https://github.com/seanb80/seanb80.github.io/blob/master/images/geoduck-meth/Screen%20Shot%202017-01-03%20at%209.24.42%20AM.png?raw=true" width = "1400">
 
 After I got that done, I went back and trimmed the data and re-ran it using the same scripts as above, tweaking them to change file names as needed.
 
