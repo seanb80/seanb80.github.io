@@ -22,11 +22,20 @@ which is derived from the manual's example SNP and Methylation call, with the ad
 
 ![img5](https://github.com/seanb80/seanb80.github.io/blob/master/images/methylextract/methylextract4.png?raw=true)
 
-* These are split in to two main groups both of which have no headers The first are the CG files (of which there are three types, .wig, .bed, and .output) which are the results of methylation calls:
+* These are split in to two main groups both of which have no headers The first are the CG files (of which there are three types, .wig, .bed, and .output) which are the results of methylation calls. According to the manual, the headers would be:
+1. Scaffold
+2. Position
+3. Context 
+4. # Watson Methylcytosines 
+5. Watson Coverage 
+6. Avg Watson PHRED score 
+7. # Crick Methylcytosines 
+8. Crick Coverage
+9. Avg Crick PHRED score
 
 ![img6](https://github.com/seanb80/seanb80.github.io/blob/master/images/methylextract/methylextract_methyl_output.png?raw=true)
 
-* According to the manual, the headers would be Scaffold, Position, Context, # Watson Methylcytosines, Watson Coverage, Avg Watson PHRED score, # Crick Methylcytosines, Crick Coverage, and Avg Crick PHRED score
+* 
 
 Secondly, there are the SNP calls.
 
