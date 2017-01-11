@@ -18,6 +18,10 @@ which is derived from the manual's example SNP and Methylation call, with the ad
 
 ![img4](https://github.com/seanb80/seanb80.github.io/blob/master/images/methylextract/methylextract3.png?raw=true)
 
+* I took a moment to check if the scaffold actually existed in the reference genome, and it does.
+
+![img4.5](https://github.com/seanb80/seanb80.github.io/blob/master/images/methylextract/scaffEx.png?raw=true)
+
 * It still, however outputs files. Lots of files. About 60,000 in this particular run.
 
 ![img5](https://github.com/seanb80/seanb80.github.io/blob/master/images/methylextract/methylextract4.png?raw=true)
@@ -45,4 +49,4 @@ Secondly, there are the SNP calls.
 
 ![img8](https://github.com/seanb80/seanb80.github.io/blob/master/images/methylextract/vcfspecs.png?raw=true)
 
-I'm re-running the MethylExtract program now with just a single .sam input to see if it's some oddity in the way MethylExtract concatenates fasta/q files, or perhaps something else. Hopefully this will produce something meaningful. Currently, all of the output files are residing in owl at `owl.fish.washington.edu/scaphapoda/Sean/MethylExtractOut` 
+I'm re-running the MethylExtract program now with just a single .sam input to see if it's some oddity in the way MethylExtract concatenates fasta/q files, or perhaps something else. Hopefully this will produce something meaningful. Currently, all of the output files are residing in owl at `owl.fish.washington.edu/scaphapoda/Sean/MethylExtractOut`
