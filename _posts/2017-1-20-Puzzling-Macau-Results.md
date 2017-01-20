@@ -2,7 +2,8 @@ I've been working my way through a subsample of Hollie's geoduck methylation dat
 
 I'm going to walk through the process I used to go from the MethylExtract results files to IGV results here, including code. 
 
-First, I read in the data
+First, I read in the data  
+
 <img src = "https://github.com/seanb80/seanb80.github.io/blob/master/images/macaupuzzle/Screen%20Shot%202017-01-20%20at%2011.57.15%20AM.png?raw=true" width = "600">
 
 Then I create some new columns in the data set. MethylExtract outputs CG data by strand, so I had to combine them.
