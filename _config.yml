@@ -7,4 +7,5 @@ permalink: /blog/:year/:month/:day/:title
 tipue_search:
   include:
     pages: true
-    collections: [blog, code, file, wiki]
+  exclude:
+    files: [search.html]
