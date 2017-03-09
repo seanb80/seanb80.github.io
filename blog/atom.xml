@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 layout: feed
+=======
+layout: post
+>>>>>>> 5891cad7adfd041a6356faa1ce5f943727d2f10e
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
