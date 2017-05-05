@@ -1,0 +1,22 @@
+<jellyProtocol>
+    <reference>/home/sean/Documents/Oly_gap_filling/scaffold.fasta</reference>  
+    <outputDir>/home/sean/Documents/Oly_gap_filling/output/</outputDir>
+    <blasr>-minMatch 8 -minPctIdentity 70 -bestn 1 -nCandidates 20 -maxScore -500 -nproc 14 -noSplitSubreads</blasr>
+    <cluster>
+        <command notes="For single node, multi-core machines" >${CMD} ${JOBNAME} 2> ${STDERR} 1> ${STDOUT} &amp;</command>
+        <nJobs>14</nJobs>
+    </cluster>
+
+    <input baseDir="/home/sean/Documents/Oly_gap_filling/raw">
+        <job>170210_PCB-CC_MS_EEE_20kb_P6v2_D01_1_filtered_subreads.fastq</job>
+	<job>170228_PCB-CC_AL_20kb_P6v2_C01_1_filtered_subreads.fastq</job>
+	<job>170228_PCB-CC_AL_20kb_P6v2_D01_1_filtered_subreads.fastq</job>
+	<job>170228_PCB-CC_AL_20kb_P6v2_E01_1_filtered_subreads.fastq</job>
+	<job>170307_PCB-CC_AL_20kb_P6v2_C01_1_filtered_subreads.fastq</job>
+	<job>170307_PCB-CC_AL_20kb_P6v2_C02_1_filtered_subreads.fastq</job>
+        <job>170314_PCB-CC_20kb_P6v2_A01_1_filtered_subreads.fastq</job>
+        <job>170314_PCB-CC_20kb_P6v2_A02_1_filtered_subreads.fastq</job>
+        <job>170314_PCB-CC_20kb_P6v2_A03_1_filtered_subreads.fastq</job>
+        <job>170314_PCB-CC_20kb_P6v2_A04_1_filtered_subreads.fastq</job>
+    </input>
+</jellyProtocol>
